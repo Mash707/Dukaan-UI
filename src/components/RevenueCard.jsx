@@ -4,7 +4,7 @@ export const RevenueCard = ({ title, amount, orderCount, isPayout }) => {
       <div
         className={
           isPayout
-            ? "bg-blue-700 rounded-t-lg shadow-md p-5 text-white"
+            ? "bg-button-blue rounded-t-lg shadow-md p-5 text-white"
             : "bg-white rounded shadow-md p-5"
         }
       >
@@ -62,7 +62,7 @@ export const RevenueCard = ({ title, amount, orderCount, isPayout }) => {
         </div>
       </div>
       {isPayout ? (
-        <div className="flex justify-between bg-blue-900 pt-2 pl-4 rounded-b-lg shadow-md px-5 pb-2 text-white">
+        <div className="flex justify-between bg-button-bluedark pt-2 pl-4 rounded-b-lg shadow-md px-5 pb-2 text-white">
           <div>Next Payout date:</div>
           <div>Today, 04:00 PM</div>
         </div>

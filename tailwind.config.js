@@ -6,6 +6,7 @@ export default {
       colors: {
         "button-grey": "#e6e6e6",
         "button-blue": "#146eb4",
+        "button-bluedark": "#0e4f82",
         "custom-white": "#fafafa",
         "table-header": "#4d4d4d",
         "sidebar-blue": "#1e2640",

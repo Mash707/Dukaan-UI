@@ -40,7 +40,7 @@ export const SideBar = () => {
               <div className="self-center h-3.8 font-medium whitespace-nowrap dark:text-white pl-4 py-1">
                 <div>Divyanshu</div>
                 <div className="underline underline-offset-2 text-slate-300">
-                  Visit Store
+                  Visit store
                 </div>
               </div>
               <div className="justify-self-end text-white pr-2">

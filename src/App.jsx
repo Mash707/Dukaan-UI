@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import { Overview } from "./components/Overview";
 import { RevenueCard } from "./components/RevenueCard";
 import { SideBar } from "./components/SideBar";
@@ -26,6 +27,7 @@ function App() {
           <RevenueCard title={"Amount Processed"} amount={"23,92,312.19"} />
         </div>
         <Transactions />
+        <Footer />
       </div>
     </div>
   );
