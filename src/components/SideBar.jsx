@@ -29,16 +29,37 @@ export const SideBar = () => {
         class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
       >
-        <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-sidebar-blue">
+        <div class="h-full px-1 py-3 overflow-y-auto bg-gray-50 dark:bg-sidebar-blue">
           <a href="https://flowbite.com/" class="flex items-center ps-2.5 mb-5">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-6 me-3 sm:h-7"
+              src="https://dukaaan-app-ui.vercel.app/assets/avatar--MnDm4gU.png"
+              class="rounded h-11"
               alt="Flowbite Logo"
             />
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              Divyanshu
-            </span>
+            <div className="grid grid-cols-2 items-center">
+              <div className="self-center h-3.8 font-medium whitespace-nowrap dark:text-white pl-4 py-1">
+                <div>Divyanshu</div>
+                <div className="underline underline-offset-2 text-slate-300">
+                  Visit Store
+                </div>
+              </div>
+              <div className="justify-self-end text-white pr-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </div>
+            </div>
           </a>
           <ul class="space-y-2 font-medium">
             <li>
